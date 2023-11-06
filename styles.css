@@ -1,0 +1,154 @@
+
+@font-face{
+    font-family: myCustomFont;
+    src:url(Norse-Bold.otf)
+}
+.root{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.img_container{
+    position:relative;
+}
+.img_bg{
+    width:500px;
+    height:100vh;
+}
+.img_odin{
+    position:absolute;
+    top:140px;
+    left:130px;
+    width:130px;
+    height:120px;
+}
+.odin_text{
+    position:absolute;
+    top:150px;
+    left:280px;
+    font-family: myCustomFont;
+    font-size: 100px;
+    color:antiquewhite;
+}
+
+.over_transparent{
+    position:absolute;
+    top:130px;
+    width:500px;
+    height:140px;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.photo_credit{
+    position:absolute;
+    bottom:140px;
+    color:antiquewhite;
+    left: 130px;
+}
+
+
+.form_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.sign_up_form{
+    min-height:70vh;
+}
+.sign_up_form_detail{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 35vh;
+    margin-top: 100px;
+    margin-bottom: 0px;
+
+}
+.name{
+    display:flex;
+   flex-direction: row;
+  
+}
+.contact_info{
+    display:flex;
+    flex-direction: row;
+}
+.pwd_field{
+    display:flex;
+    flex-direction: row;
+}
+
+.first_name{
+  margin-left:40px;
+  margin-top:20px;
+  margin-bottom: 20px;
+
+}
+
+
+.last_name{
+    margin-left:90px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  
+  }
+
+
+.email{
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  
+  }
+
+
+.phone_number{
+    margin-left:90px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  
+  }
+
+
+.pwd{
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  
+  }
+
+
+.confirm_pwd{
+    margin-left:90px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  
+  }
+
+
+  input{
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+    
+  }
+
+  .create{
+    margin-left:40px;
+    margin-bottom: 20px;
+    
+  
+  }
+  #create_account{
+    height:40px;
+    background-color: #596D48;
+  }
+  .info_text{
+    margin-left:40px;
+    font-size: 25px;
+  }
+  input:focus{
+    outline: 1px solid blue;
+    box-shadow: 1px 1px 1px 1px blue;
+  }
