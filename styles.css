@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: myCustomFont;
-    src:url(Norse-Bold.otf)
+    src:url(/font/Norse-Bold.otf)
 }
 .root{
     display:flex;
